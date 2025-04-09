@@ -1,0 +1,223 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+    <head> <!--declaração meta informações do código-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+       <title>Titulo fantasia do teste</title>  <!--nome do aba do navegador-->
+       <meta name="description" content="página web para adquiri conhecimento">
+    
+    </head>
+    <body>
+        <header> <!--declaração de cabeçalho-->
+            <h1>Teste de estudos em HTML</h1>
+            <p>Aplicando conhecimentos básicos em programação.</p>
+        </header>
+        <main><!--declaração código principal-->
+            
+            <section><!--declarção se separação de conteúdo--> 
+                <h2>Sobre o funcionamento do código:</h2>
+                
+                <p>Esse conteúdo está sendo produzido em prol de adquirir
+                    <strong>conhecimentos aplicáveis</strong> <br>no <em>funcionamento do HTML</em>.
+                </p>
+                <p>As aplicações a seguir tratam-se da exploração de
+                    <b>funcionalidades</b> do <i>código</i>.
+                </p>
+                <p><br><abbr title="HyperText Markup Language ou Linguagem de Marcação de Hipertexto."><b>HTML</b></abbr><br>
+                </p>
+            </section>
+            
+            <!--Pergunta 1: radio-->
+            <section>
+                <h2>Qual linguagem é usada para estruturar páginas WEB?</h2>
+                <form>
+                    <input type="radio" value="Python" id="p1a" name="pergunta1"> 
+                    <label for="p1a">Python</label><br>
+                    
+                    <input type="radio" value="CSS" id="p1b" name="pergunta1">
+                    <label for="p1b">CSS</label><br>
+
+                    <input type="radio" value="Java" id="p1c" name="pergunta1">
+                    <label for="p1c">Java</label><br>
+
+                    <input type="radio" value="HTML" id="p1d" name="pergunta1">
+                    <label for="p1d">HTML</label><br>
+
+                    <input type="radio" value=".Net" id="p1e" name="pergunta1">
+                    <label for="p1e">.Net</label><br>
+
+                </form>
+            </section>
+            
+            <!--Pergunta 2: texto-->
+            <section>
+                <h2>Pergunta 2: na URL https://www.google.com.br/ o trecho google.com é o ____________. </h2>
+                <form>
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite sua reposta...">
+                </form>
+            </section>
+            
+            <!--Pergunta 3: senha-->
+            <section>
+                <h2>Exemplificando proteção a senha:</h2>
+                <form>
+                    <input type="password" placeholder="Digite uma senha...">
+                </form>
+            </section>
+            
+            <!--Pergunta 4: data-->
+            <section>
+                <h2>Exemplo de pergunta para interação do tipo data:</h2>
+                <form>
+                    <input type="date" name="p4" id="pergunta4">
+                </form>
+            </section>
+
+            <!--Pergunta 5: seleção multipla-->
+            <section>
+                <h2>Pergunta para exemplificação de seleção múltipla:</h2>
+                <form>
+                    <p>Quais das linguagens são classicamente interpretadas?</p>
+                    <input type="checkbox" name="p5a" id="pergunta5" value="Javascript">
+                    <label for="p5a">Javascript</label><br>
+                    
+                    <input type="checkbox" name="p5b" id="pergunta5" value="Linguagem C">
+                    <label for="p5b">Linguagem C</label><br>
+
+                    <input type="checkbox" name="p5c" id="pergunta5" value="Python">
+                    <label for="p5c">Python</label><br>
+
+                    <input type="checkbox" name="p5d" id="pergunta5" value="C#">
+                    <label for="p5d">C#</label><br>
+
+                    <input type="checkbox" name="p5e" id="pergunta5" value="Java">
+                    <label for="p5d">Java</label><br>
+
+                </form>
+            </section>
+
+            <!--Pergunta 6: Upload-->
+            <section>
+                <h2>Upload de um arquivo contendo código HTML:</h2>
+                <form>
+                    <input type="file" id="p6" name="pergunta 6">                    
+                </form>
+            </section>
+
+            <!--Pergunta 7: Menu Hamburguer-->
+            <section>
+                <h2>Pergunta para exemplificação de menu suspenso</h2>
+                <form>
+                    <p>Qual abaixo fixa um texto explicativo dentro de uma caixa de digitação de texto?</p>
+                    <select name="pergunta7" id="p7">
+                        <option value="id">id</option>
+                        <option value="type">type</option>
+                        <option value="name">name</option>
+                        <option value="value">value</option>
+                        <option value="placeholder">placeholder</option>
+                    </select>
+                </form>
+                    
+            </section>
+
+            <!--Pergunta 8: Imagem-->
+            <section>
+                <h2>Selecionar a imagem correspondente:</h2>
+                
+                <form>
+                    <figure>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" style="width: 200px; height: 200px;">
+                        <figcaption>Figura 1: Linguagem de programação.</figcaption>
+                    </figure>
+                    <input type="text" id="p8" name="pergunta8" placeholder="Digite o nome da linguagem...">
+                </form>
+                    
+            </section>
+
+            <!--Tabela de Pontuação-->
+            <section>
+                <h2>Tabela de Pontuação.</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Comentário</th> <!--Atenção ao "th"e não tr-->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0-2</td>
+                            <td>Não desista, apesar do resultado.</td>
+                        </tr>
+                        <tr>
+                            <td>3-4</td>
+                            <td>Dá para melhorar, continue tentando.</td>
+                        </tr>
+                        <tr>
+                            <td>5-7</td>
+                            <td>Não está péssimo, mas dá para melhorar,     continue tentando.</td>
+                        </tr>
+                        <tr>
+                            <td>8-10</td>
+                            <td>Agora sim, continue treinando.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="2"><b>Treinamento</b> e <b>Disciplina</b> são a chave do sucesso</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+             <!--Lista de respostas:-->
+             <section>
+                <h2>Lista de respostas</h2>
+                <details>
+                    <summary>Clique para verificar as respostas</summary>
+                    <ol>
+                        <li>R1: HTML</li>
+                        <li>R2: Domínio</li>
+                        <li>R3: Qualquer resposta fica protegida</li>
+                        <li>R4: Qualquer data padrão pela tag type "date"</li>
+                    </ol> 
+                    <ul>    
+                        <li>R5: Javascript e Python</li>
+                        <li>R6: Apenas teste</li>
+                        <li>R7: placeholder</li>
+                        <li>R8: Python</li>
+                    </ul>
+                </details>
+
+            </section>
+
+            <!--Formulário de Feedback-->
+            <section>
+                <h2>Qual seu Feedback?</h2>
+                <form>
+                    <fieldset>
+                        <Legend>Informações de Contato</Legend>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name"    placeholder="Digite seu nome..."><br>
+                        <label for="E-mail">E-mail:</label>
+                        <input type="email" id="E-mail" name="E-mail"   placeholder="Digite seu e-mail..."><br>
+                        <label for="comentários">Comentários:</label><br>
+                        <textarea id="comentários" name="comentários"   placeholder="Digite seu comentário..." rows="5"   cols="100"></textarea><br>
+                        <button onclick="alert('Eu soube configurar um aviso em padrão JS!!')">Enviar</button>
+                    </fieldset>
+
+                </form>
+            </section>
+
+        </main>
+        <footer><!--declaração rodapé-->
+           <p>Não se acanhe, entre em contato e tente me contratar.&copy;
+           <br><b>&lt;<u>victordacosta314@gmail.com</victordacosta314></u>&gt;</b></p> 
+           <p><a href="https://github.com/VictorCCruz1" target="_blank">Explore outros projetos...</a></p>
+        </footer>
+
+    </body>
+
+</html>
